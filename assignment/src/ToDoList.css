@@ -1,0 +1,39 @@
+/* ToDoList.css */
+
+/* Styling for the form to have a green background */
+.todo-form {
+    background-color: #d4edda; /* Light green background */
+    padding: 20px; /* Add padding for aesthetics */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Additional styling for margins between form elements */
+  .mb-2 {
+    margin-bottom: 10px; /* Space between form elements */
+  }
+  
+  /* Header styling */
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style editable description */
+  h4[contenteditable="true"] {
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Responsive design - makes sure layout looks good on mobile */
+  @media (max-width: 768px) {
+    .Row {
+      flex-direction: column;
+    }
+  }
+  
